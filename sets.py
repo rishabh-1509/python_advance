@@ -42,3 +42,12 @@ setA.update(setB)
 setA.intersection_update(setB)# update the sets with elements found in both the sets 
 #diffrenece update 
 setA.difference_update( setB)# update the sets with elements not found in both sets
+#subset method 
+if setB.issubset(setA):
+        print("set B is a subset of set A")
+else:
+        print("set B is not a subset of set A")
+# superset   method
+setA.issuperset(setB) # gives true only if the all the elemenet of b is present in a 
+# Frozen set method
+a = frozenset([1,2,3,,4,5,6,7,8,9])
